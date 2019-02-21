@@ -10,6 +10,10 @@ public class Persona {
 		return n;
 	}
 	
+	public int getNumero(int n) {
+		return n;
+	}
+	
 	public String getNombre() {
 		return "Miguel Angel";
 	}
