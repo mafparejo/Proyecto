@@ -1,7 +1,9 @@
 package org;
 
+import java.util.List;
+
 public interface Metodos {
 
-	public String recuperar();
+	public List recuperar();
 	public int numero();
 }

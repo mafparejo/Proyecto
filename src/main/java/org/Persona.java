@@ -1,10 +1,14 @@
 package org;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Persona implements Metodos{
 
 	private String nombre;
 	private String apellido;
 	private String dire;
+	private List lista;
 	
 	public String getFrase(String n) {
 		return n;
@@ -33,8 +37,12 @@ public class Persona implements Metodos{
 		this.dire = dire;
 	}
 
-	public String recuperar() {
-		return "recupero string "+numero();
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public List recuperar() {
+		lista = new ArrayList();
+		lista.add("Primero");
+		lista.add("Segundo");
+		return lista;
 	}
 
 	public int numero() {
