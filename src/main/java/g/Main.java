@@ -11,6 +11,7 @@ public class Main {
 		Persona p = new Persona();
 		
 		log.info("nivel info "+p.getNombre());
+		log.info("nivel info "+p.getFrase("esta frase esta en info"));
 		log.debug("nivel debug "+p.getNombre());
 
 	}

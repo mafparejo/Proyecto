@@ -6,6 +6,10 @@ public class Persona {
 	private String apellido;
 	private String dire;
 	
+	public String getFrase(String n) {
+		return n;
+	}
+	
 	public String getNombre() {
 		return "Miguel Angel";
 	}
@@ -24,6 +28,5 @@ public class Persona {
 	public void setDire(String dire) {
 		this.dire = dire;
 	}
-	
 	
 }
