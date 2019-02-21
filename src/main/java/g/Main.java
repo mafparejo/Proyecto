@@ -10,7 +10,8 @@ public class Main {
 		BasicConfigurator.configure();
 		Persona p = new Persona();
 		
-		log.info("Bienvenido "+p.getNombre());
+		log.info("nivel info "+p.getNombre());
+		log.debug("nivel debug "+p.getNombre());
 
 	}
 
