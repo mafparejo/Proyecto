@@ -1,4 +1,4 @@
-package g;
+package org;
 
 public class Persona implements Metodos{
 

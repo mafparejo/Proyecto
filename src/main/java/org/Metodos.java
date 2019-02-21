@@ -1,4 +1,4 @@
-package g;
+package org;
 
 public interface Metodos {
 
