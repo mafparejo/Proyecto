@@ -1,6 +1,6 @@
 package g;
 
-public class Persona {
+public class Persona implements Metodos{
 
 	private String nombre;
 	private String apellido;
@@ -31,6 +31,15 @@ public class Persona {
 	}
 	public void setDire(String dire) {
 		this.dire = dire;
+	}
+
+	public String recuperar() {
+		return "recupero string "+numero();
+	}
+
+	public int numero() {
+		// TODO Auto-generated method stub
+		return 12;
 	}
 	
 }

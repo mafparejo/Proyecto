@@ -13,6 +13,8 @@ public class Main {
 		
 		log.info("nivel info "+p.getNombre());
 		log.info("nivel info "+ numero);
+		log.info("nivel info "+ p.recuperar());
+		log.info("nivel info "+ p.numero());
 		log.info("nivel info "+p.getFrase("esta frase esta en info"));
 		log.debug("nivel debug "+p.getNombre());
 
